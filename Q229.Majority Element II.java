@@ -27,7 +27,6 @@ class Main {
           if(cand1==num) count1++;
           if(cand2==num) count2++;
       }
-      List<Integer>res=new ArrayList<>();
        List<Integer> result = new ArrayList<>();
         int n = nums.length;
         if (count1 > n / 3) result.add(cand1);
